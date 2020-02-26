@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.default-background-image {
+  background-image: url("../assets/citipix_skyline.jpg");
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.w-fill {
+  width: 100%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.py-0-5 {
+  padding: 0, 5;
+}
+
+.px-1 {
+  padding: 1;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
